@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AURA TRAVEL – Tour Operator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">AURA <span class="logo-accent">TRAVEL</span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#pacchetto">Pacchetto</a></li>
+        <li><a href="#hotel">Hotel</a></li>
+        <li><a href="#ristoranti">Ristoranti</a></li>
+        <li><a href="#galleria">Galleria</a></li>
+        <li><a href="#contatti" class="nav-cta">Prenota Ora</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tagline">Tour Operator di Eccellenza</p>
+      <h1 class="hero-title">Scopri la Grandezza<br />dell'<span class="hero-accent">Eterna Roma</span></h1>
+      <p class="hero-subtitle">Vivi un'esperienza indimenticabile tra storia, arte e sapori autentici con il nostro esclusivo pacchetto Gladiatore</p>
+      <div class="hero-buttons">
+        <a href="#pacchetto" class="btn btn-primary">Scopri il Pacchetto</a>
+        <a href="#galleria" class="btn btn-outline">Guarda la Galleria</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scorri per scoprire</span>
+      <div class="scroll-arrow">↓</div>
+    </div>
+  </section>
+
+  <!-- ===== INTRO BRAND ===== -->
+  <section class="brand-intro">
+    <div class="container">
+      <div class="brand-grid">
+        <div class="brand-text">
+          <span class="section-label">Chi Siamo</span>
+          <h2 class="section-title">AURA TRAVEL</h2>
+          <p>Siamo un tour operator specializzato nella creazione di esperienze di viaggio su misura, pensate per chi desidera vivere ogni destinazione in modo autentico e memorabile. Con anni di esperienza nel settore, curiamo ogni dettaglio del vostro viaggio affinché ogni momento sia perfetto.</p>
+          <p>Il nostro team di esperti seleziona con cura hotel, ristoranti e attività per garantirvi il massimo comfort e l'autenticità culturale di ogni luogo visitato.</p>
+          <div class="brand-stats">
+            <div class="stat">
+              <span class="stat-num">5.000+</span>
+              <span class="stat-label">Clienti Soddisfatti</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">15+</span>
+              <span class="stat-label">Anni di Esperienza</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">98%</span>
+              <span class="stat-label">Tasso di Soddisfazione</span>
+            </div>
+          </div>
+        </div>
+        <div class="brand-image">
+          <img src="rome-skyline.jpg" alt="Panorama di Roma" loading="lazy" />
+          <div class="brand-badge">
+            <span class="badge-icon">★</span>
+            <span>Tour Operator<br />Certificato</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PACCHETTO GLADIATORE ===== -->
+  <section class="pacchetto" id="pacchetto">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Il Nostro Pacchetto Esclusivo</span>
+        <h2 class="section-title">Pacchetto Gladiatore</h2>
+        <p class="section-desc">Un viaggio attraverso i secoli nel cuore della Città Eterna. Tre giorni indimenticabili tra monumenti storici, cucina autentica e cultura millenaria.</p>
+      </div>
+
+      <div class="pacchetto-hero">
+        <div class="pacchetto-image">
+          <img src="colosseum.jpg" alt="Colosseo di Roma" />
+          <div class="pacchetto-badge">
+            <div class="badge-price">€ 350</div>
+            <div class="badge-info">per 2 persone</div>
+          </div>
+        </div>
+        <div class="pacchetto-details">
+          <div class="pacchetto-tag">⚔️ Pacchetto Signature</div>
+          <h3>Roma Imperiale – 3 Giorni / 2 Notti</h3>
+          <p class="pacchetto-intro">Immergiti nell'atmosfera dell'antica Roma con un itinerario studiato per farti vivere la città come un vero imperatore. Dal Colosseo al Vaticano, dalla Fontana di Trevi a Trastevere, ogni angolo racconta una storia millenaria.</p>
+
+          <div class="incluso-grid">
+            <div class="incluso-item">
+              <span class="incluso-icon">🏨</span>
+              <div>
+                <strong>2 Notti in Hotel</strong>
+                <span>Camera doppia con colazione inclusa</span>
+              </div>
+            </div>
+            <div class="incluso-item">
+              <span class="incluso-icon">🎟️</span>
+              <div>
+                <strong>Biglietti Monumenti</strong>
+                <span>Colosseo, Foro Romano, Palatino</span>
+              </div>
+            </div>
+            <div class="incluso-item">
+              <span class="incluso-icon">🍽️</span>
+              <div>
+                <strong>2 Cene Incluse</strong>
+                <span>In ristoranti tipici romani selezionati</span>
+              </div>
+            </div>
+            <div class="incluso-item">
+              <span class="incluso-icon">🚌</span>
+              <div>
+                <strong>Transfer Aeroporto</strong>
+                <span>Andata e ritorno inclusi</span>
+              </div>
+            </div>
+            <div class="incluso-item">
+              <span class="incluso-icon">🗺️</span>
+              <div>
+                <strong>Tour Guidato</strong>
+                <span>Guida turistica in italiano</span>
+              </div>
+            </div>
+            <div class="incluso-item">
+              <span class="incluso-icon">📱</span>
+              <div>
+                <strong>App Viaggio</strong>
+                <span>Mappa interattiva e consigli locali</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="itinerario">
+            <h4>Itinerario</h4>
+            <div class="day-card">
+              <div class="day-num">Giorno 1</div>
+              <div class="day-content">
+                <strong>Arrivo e Centro Storico</strong>
+                <p>Check-in in hotel, visita al Colosseo e Foro Romano, passeggiata serale a Trastevere con cena tipica.</p>
+              </div>
+            </div>
+            <div class="day-card">
+              <div class="day-num">Giorno 2</div>
+              <div class="day-content">
+                <strong>Vaticano e Fontane</strong>
+                <p>Musei Vaticani e Cappella Sistina al mattino, Fontana di Trevi e Piazza Navona nel pomeriggio, cena al ristorante.</p>
+              </div>
+            </div>
+            <div class="day-card">
+              <div class="day-num">Giorno 3</div>
+              <div class="day-content">
+                <strong>Partenza</strong>
+                <p>Colazione in hotel, tempo libero per shopping e souvenir, transfer aeroporto e partenza.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pacchetto-cta">
+            <div class="price-box">
+              <span class="price-label">Prezzo Totale</span>
+              <span class="price-value">€ 350</span>
+              <span class="price-note">per 2 persone – tutto incluso</span>
+            </div>
+            <a href="#contatti" class="btn btn-primary btn-large">Prenota Subito</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOTEL ===== -->
+  <section class="hotel" id="hotel">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Dove Dormirete</span>
+        <h2 class="section-title">Il Vostro Hotel a Roma</h2>
+        <p class="section-desc">Abbiamo selezionato per voi un hotel nel cuore di Roma, comodo per raggiungere a piedi i principali monumenti.</p>
+      </div>
+
+      <div class="hotel-card-featured">
+        <div class="hotel-img-wrap">
+          <img src="trastevere.jpg" alt="Hotel Colosseum Roma" />
+          <div class="hotel-ribbon">Incluso nel Pacchetto</div>
+        </div>
+        <div class="hotel-info">
+          <div class="hotel-stars">★★★</div>
+          <h3 class="hotel-name">Hotel Colosseum</h3>
+          <p class="hotel-address">📍 Via Sforza, 10 – Rione Monti, Roma</p>
+          <p class="hotel-desc">L'Hotel Colosseum è una struttura a tre stelle situata nel pittoresco rione Monti, a pochi passi dal Colosseo e dal Foro Romano. Offre camere confortevoli con arredi classici in stile romano, colazione a buffet con prodotti freschi e personale disponibile 24 ore su 24.</p>
+
+          <div class="hotel-features">
+            <div class="feature"><span>🍳</span> Colazione Inclusa</div>
+            <div class="feature"><span>📶</span> Wi-Fi Gratuito</div>
+            <div class="feature"><span>❄️</span> Aria Condizionata</div>
+            <div class="feature"><span>🅿️</span> Parcheggio Vicino</div>
+            <div class="feature"><span>🗝️</span> Reception 24h</div>
+            <div class="feature"><span>🚇</span> Metro a 5 min</div>
+          </div>
+
+          <div class="hotel-highlight">
+            <div class="highlight-item">
+              <span class="h-icon">🏛️</span>
+              <div>
+                <strong>300 m dal Colosseo</strong>
+                <small>Raggiungibile a piedi in 5 minuti</small>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <span class="h-icon">⭐</span>
+              <div>
+                <strong>Valutazione 8.4/10</strong>
+                <small>Oltre 1.200 recensioni verificate</small>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contatti" class="btn btn-secondary">Incluso nel Pacchetto Gladiatore</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RISTORANTI ===== -->
+  <section class="ristoranti" id="ristoranti">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Dove Mangerete</span>
+        <h2 class="section-title">I Migliori Ristoranti di Roma</h2>
+        <p class="section-desc">Abbiamo selezionato tre ristoranti storici e autentici dove potrete assaporare la vera cucina romana, lontano dalle trappole turistiche.</p>
+      </div>
+
+      <div class="ristoranti-grid">
+
+        <!-- Ristorante 1 -->
+        <div class="ristorante-card">
+          <div class="rist-img-wrap">
+            <img src="roman-food.jpg" alt="Armando al Pantheon" />
+            <div class="rist-badge">⭐ Incluso nel Pacchetto</div>
+          </div>
+          <div class="rist-body">
+            <div class="rist-header">
+              <h3>Armando al Pantheon</h3>
+              <span class="rist-price">€€</span>
+            </div>
+            <p class="rist-address">📍 Salita de' Crescenzi, 31 – Pantheon, Roma</p>
+            <p class="rist-desc">Fondato nel 1961, è uno dei ristoranti più amati di Roma. A pochi passi dal Pantheon, offre piatti della tradizione romana come la cacio e pepe, la carbonara e la coda alla vaccinara, preparati con ingredienti freschi e ricette tramandate di generazione in generazione.</p>
+            <div class="rist-tags">
+              <span>Cucina Romana</span>
+              <span>Dal 1961</span>
+              <span>Vicino al Pantheon</span>
+            </div>
+            <div class="rist-piatti">
+              <strong>Piatti Consigliati:</strong>
+              <ul>
+                <li>Cacio e Pepe artigianale</li>
+                <li>Carbonara tradizionale</li>
+                <li>Coda alla Vaccinara</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ristorante 2 -->
+        <div class="ristorante-card">
+          <div class="rist-img-wrap">
+            <img src="trastevere.jpg" alt="Da Enzo al 29" />
+            <div class="rist-badge rist-badge-alt">🍷 Consigliato</div>
+          </div>
+          <div class="rist-body">
+            <div class="rist-header">
+              <h3>Da Enzo al 29</h3>
+              <span class="rist-price">€€</span>
+            </div>
+            <p class="rist-address">📍 Via dei Vascellari, 29 – Trastevere, Roma</p>
+            <p class="rist-desc">Nel cuore di Trastevere, questa trattoria familiare è un punto di riferimento per chi cerca la vera cucina romana. Ambiente rustico e accogliente, con tavoli all'aperto d'estate. La pasta fresca è fatta in casa ogni giorno e i vini sono selezionati dai migliori produttori laziali.</p>
+            <div class="rist-tags">
+              <span>Trattoria Storica</span>
+              <span>Trastevere</span>
+              <span>Pasta Fresca</span>
+            </div>
+            <div class="rist-piatti">
+              <strong>Piatti Consigliati:</strong>
+              <ul>
+                <li>Rigatoni all'Amatriciana</li>
+                <li>Abbacchio alla Romana</li>
+                <li>Carciofi alla Giudia</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ristorante 3 -->
+        <div class="ristorante-card">
+          <div class="rist-img-wrap">
+            <img src="piazza-navona.jpg" alt="Hostaria Grappolo d'Oro" />
+            <div class="rist-badge rist-badge-gold">🏆 Top Rated</div>
+          </div>
+          <div class="rist-body">
+            <div class="rist-header">
+              <h3>Hostaria Grappolo d'Oro</h3>
+              <span class="rist-price">€€</span>
+            </div>
+            <p class="rist-address">📍 Piazza della Cancelleria, 80 – Campo de' Fiori, Roma</p>
+            <p class="rist-desc">Un'istituzione della cucina romana, situata a due passi da Campo de' Fiori. Inserita nella Guida Michelin, questa hostaria propone una cucina di mercato che cambia con le stagioni, rispettando la tradizione laziale con un tocco di creatività contemporanea.</p>
+            <div class="rist-tags">
+              <span>Guida Michelin</span>
+              <span>Campo de' Fiori</span>
+              <span>Cucina di Mercato</span>
+            </div>
+            <div class="rist-piatti">
+              <strong>Piatti Consigliati:</strong>
+              <ul>
+                <li>Tonnarelli Cacio e Pepe</li>
+                <li>Saltimbocca alla Romana</li>
+                <li>Tiramisù della Casa</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="food-banner">
+        <img src="roman-food.jpg" alt="Cucina Romana" class="food-bg" />
+        <div class="food-overlay"></div>
+        <div class="food-content">
+          <h3>La Cucina Romana: Un Patrimonio Millenario</h3>
+          <p>Dalla carbonara all'amatriciana, dai carciofi alla giudia alla coda alla vaccinara: ogni piatto racconta la storia di un popolo e di una cultura gastronomica unica al mondo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERIA ===== -->
+  <section class="galleria" id="galleria">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">La Città Eterna</span>
+        <h2 class="section-title">Roma in Immagini</h2>
+        <p class="section-desc">Lasciati incantare dalla bellezza senza tempo di Roma, tra monumenti millenari, piazze barocche e vicoli romantici.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-large">
+          <img src="colosseum.jpg" alt="Il Colosseo" />
+          <div class="gallery-caption">
+            <h4>Il Colosseo</h4>
+            <p>Il simbolo eterno di Roma</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="trevi-fountain.jpg" alt="Fontana di Trevi" />
+          <div class="gallery-caption">
+            <h4>Fontana di Trevi</h4>
+            <p>La fontana più famosa del mondo</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="piazza-navona.jpg" alt="Piazza Navona" />
+          <div class="gallery-caption">
+            <h4>Piazza Navona</h4>
+            <p>Il cuore barocco della città</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="trastevere.jpg" alt="Trastevere" />
+          <div class="gallery-caption">
+            <h4>Trastevere</h4>
+            <p>Il rione più autentico di Roma</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="roman-forum.jpg" alt="Foro Romano" />
+          <div class="gallery-caption">
+            <h4>Foro Romano</h4>
+            <p>Il cuore dell'antica Roma</p>
+          </div>
+        </div>
+        <div class="gallery-item gallery-large-h">
+          <img src="rome-panorama.jpg" alt="Panorama di Roma" />
+          <div class="gallery-caption">
+            <h4>Panorama di Roma</h4>
+            <p>La Città Eterna dall'alto</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PERCHÉ SCEGLIERCI ===== -->
+  <section class="perche">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-label">I Nostri Vantaggi</span>
+        <h2 class="section-title">Perché Scegliere AURA TRAVEL</h2>
+      </div>
+      <div class="perche-grid">
+        <div class="perche-card">
+          <div class="perche-icon">🛡️</div>
+          <h3>Sicurezza Garantita</h3>
+          <p>Tutti i nostri pacchetti includono assicurazione viaggio e assistenza 24/7 durante il soggiorno.</p>
+        </div>
+        <div class="perche-card">
+          <div class="perche-icon">💎</div>
+          <h3>Qualità Selezionata</h3>
+          <p>Hotel e ristoranti scelti personalmente dal nostro team per garantire standard elevati a prezzi accessibili.</p>
+        </div>
+        <div class="perche-card">
+          <div class="perche-icon">🎯</div>
+          <h3>Esperienze Autentiche</h3>
+          <p>Niente trappole turistiche: vi portiamo nei luoghi amati dai romani, per un'esperienza genuina.</p>
+        </div>
+        <div class="perche-card">
+          <div class="perche-icon">💰</div>
+          <h3>Miglior Prezzo</h3>
+          <p>Grazie ai nostri accordi esclusivi, offriamo il miglior rapporto qualità-prezzo sul mercato.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIANZE ===== -->
+  <section class="testimonianze">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Cosa Dicono i Nostri Clienti</span>
+        <h2 class="section-title">Recensioni Verificate</h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Il Pacchetto Gladiatore è stato un sogno! L'hotel era perfettamente posizionato e i ristoranti consigliati erano autentici e deliziosi. Torneremo sicuramente!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">MR</div>
+            <div>
+              <strong>LucaFrancesco Amoruso</strong>
+              <span> Teheran– Giugno 2020</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Organizzazione impeccabile, prezzo imbattibile. Per 350€ in due abbiamo vissuto tre giorni da sogno a Roma. AURA TRAVEL è il miglior tour operator che abbia mai provato!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">SF</div>
+            <div>
+              <strong>Gabriele Barracane</strong>
+              <span>Lisbona – Settembre 2024</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Armando al Pantheon è stato il punto più alto del viaggio. La carbonara più buona della mia vita! Grazie ad AURA TRAVEL per averci portato lì."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">LC</div>
+            <div>
+              <strong>Walter Capriati</strong>
+              <span>Oslo – Ottobre 2023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATTI / PRENOTA ===== -->
+  <section class="contatti" id="contatti">
+    <div class="container">
+      <div class="contatti-grid">
+        <div class="contatti-info">
+          <span class="section-label">Contattaci</span>
+          <h2 class="section-title">Prenota il Tuo Viaggio</h2>
+          <p>Sei pronto a vivere l'esperienza romana della tua vita? Contattaci ora per prenotare il Pacchetto Gladiatore o per ricevere informazioni personalizzate.</p>
+
+          <div class="contact-items">
+            <div class="contact-item">
+              <span class="c-icon">📞</span>
+              <div>
+                <strong>Telefono</strong>
+                <a href="tel:+390612345678">+39 06 1234 5678</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="c-icon">✉️</span>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:info@auratravel.it">info@auratravel.it</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="c-icon">📍</span>
+              <div>
+                <strong>Sede</strong>
+                <span>Via del Corso, 45 – 00186 Roma (RM)</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="c-icon">🕐</span>
+              <div>
+                <strong>Orari</strong>
+                <span>Lun–Ven: 9:00–18:00 | Sab: 10:00–14:00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contatti-form">
+          <h3>Richiedi Informazioni</h3>
+          <form id="bookingForm" onsubmit="handleSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nome">Nome *</label>
+                <input type="text" id="nome" placeholder="Il tuo nome" required />
+              </div>
+              <div class="form-group">
+                <label for="cognome">Cognome *</label>
+                <input type="text" id="cognome" placeholder="Il tuo cognome" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" placeholder="la.tua@email.it" required />
+            </div>
+            <div class="form-group">
+              <label for="telefono">Telefono</label>
+              <input type="tel" id="telefono" placeholder="+39 333 000 0000" />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="data">Data di Partenza *</label>
+                <input type="date" id="data" required />
+              </div>
+              <div class="form-group">
+                <label for="persone">N° Persone</label>
+                <select id="persone">
+                  <option value="2">2 Persone</option>
+                  <option value="3">3 Persone</option>
+                  <option value="4">4 Persone</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="messaggio">Messaggio</label>
+              <textarea id="messaggio" rows="3" placeholder="Richieste speciali, domande..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              Invia Richiesta di Prenotazione
+            </button>
+          </form>
+          <div id="formSuccess" class="form-success hidden">
+            <span>✅</span>
+            <p>Grazie! La tua richiesta è stata inviata. Ti contatteremo entro 24 ore.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <span class="logo-icon">✦</span>
+            <span class="logo-text">AURA <span class="logo-accent">TRAVEL</span></span>
+          </div>
+          <p>Il tuo tour operator di fiducia per viaggi indimenticabili in Italia e nel mondo. Ogni viaggio è una storia unica.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">in</a>
+            <a href="#" aria-label="Twitter">tw</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Pacchetti</h4>
+          <ul>
+            <li><a href="#pacchetto">Pacchetto Gladiatore – Roma</a></li>
+            <li><a href="#">Pacchetto Venezia</a></li>
+            <li><a href="#">Pacchetto Firenze</a></li>
+            <li><a href="#">Pacchetto Sicilia</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Azienda</h4>
+          <ul>
+            <li><a href="#">Chi Siamo</a></li>
+            <li><a href="#">Il Nostro Team</a></li>
+            <li><a href="#">Certificazioni</a></li>
+            <li><a href="#">Lavora con Noi</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Supporto</h4>
+          <ul>
+            <li><a href="#contatti">Contattaci</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Termini e Condizioni</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 AURA TRAVEL S.r.l. – P.IVA 12345678901 – Via del Corso, 45 – 00186 Roma | Tutti i diritti riservati</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
